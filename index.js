@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Triangle, Circle, Square } = require('./lib/shapes');
-const { type } = require('os');
+// const { type } = require('os');
 
 async function promptUser() {
     const answers = await inquirer.prompt([
