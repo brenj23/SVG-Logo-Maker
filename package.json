@@ -1,0 +1,17 @@
+{
+    "name": "week10-challenge",
+    "version": "1.0.0",
+    "description": "SVG Logo Generator",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Bren Broussard",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^8.2.6"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
