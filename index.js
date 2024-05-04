@@ -57,7 +57,7 @@ async function generateSVG() {
         <text x="150" y="150" font-family="Arial" font-size="24" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
     </svg>
 `;
-fs.writeFileSync('logo.svg',svgContent);
+fs.writeFileSync('./dist/logo.svg',svgContent);
 
 console.log("Generated logo.svg");
 }
